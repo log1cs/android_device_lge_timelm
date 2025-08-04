@@ -322,7 +322,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.timelm \
     fstab.timelm.ramdisk \
-    fstab.zram \
     init.lge.rc \
     init.lge.vendor.rc \
     init.qcom.power.rc \
