@@ -141,8 +141,8 @@ vendor/lib64/libbtnv.so
 vendor/lib64/libsoc_helper.so
 
 # Bluetooth (A2DP)
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib/btaudio_offload_if.so
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libbluetooth_audio_session_qti_2_1.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
@@ -151,10 +151,10 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
 # Camera
-vendor/lib64/com.qti.feature2.generic.so
-vendor/lib64/com.qti.feature2.gs.so
 vendor/lib64/HDR10plus.so
 vendor/lib64/camera/sensors.hal.flicker.so
+vendor/lib64/com.qti.feature2.generic.so
+vendor/lib64/com.qti.feature2.gs.so
 vendor/lib64/hw/camera.kona.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libCmcPdaf.so
@@ -193,10 +193,10 @@ vendor/lib64/liblgae_main.so
 vendor/lib64/liblgawb_main.so
 vendor/lib64/liblgdnnsnpe.so
 vendor/lib64/liblghdri.so
-vendor/lib64/libmorpho_image_stab31.so
-vendor/lib64/libmpbase.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
+vendor/lib64/libmorpho_image_stab31.so
+vendor/lib64/libmpbase.so
 vendor/lib64/libofflinelog.so
 vendor/lib64/libos.so
 vendor/lib64/libsns_device_mode_stub.so
@@ -1061,9 +1061,9 @@ vendor/lib64/libopenvx.so
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
+vendor/etc/media_profiles_vendor.xml
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/etc/system_properties.xml
-vendor/etc/media_profiles_vendor.xml
 vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libmmosal.so;MODULE_SUFFIX=_vendor
 
@@ -1567,8 +1567,8 @@ vendor/lib64/libthermalclient.so
 # Time services
 vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
-vendor/lib/libtime_genoff.so
 vendor/etc/init/init.time_daemon.rc
+vendor/lib/libtime_genoff.so
 vendor/lib64/libtime_genoff.so
 
 # Trusted User Interface
